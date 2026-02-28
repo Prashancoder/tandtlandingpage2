@@ -40,12 +40,12 @@ const Header = () => {
               >
                 About Us
               </button>
-              <button
+              {/* <button
                 onClick={() => scrollToSection('services')}
                 className="text-white hover:text-[#FCBD01] transition-smooth"
               >
                 Services
-              </button>
+              </button> */}
               {/* <Link to="/career" className="text-white hover:text-[#FCBD01] transition-smooth">Career</Link> */}
 
 
@@ -97,14 +97,12 @@ const Header = () => {
                 >
                   About Us
                 </button>
-                <button
+                {/* <button
                   onClick={() => scrollToSection('services')}
                   className="text-white hover:text-[#FCBD01] transition-smooth text-left"
                 >
                   Services
-                </button>
-                <Link to="/career" className="text-white hover:text-[#FCBD01] transition-smooth text-left">Career</Link>
-                <Link to="/admin-resume" className="text-white hover:text-[#FCBD01] transition-smooth text-left">Admin Resumes</Link>
+                </button> */}
                 <button
                   onClick={() => scrollToSection('contact')}
                   className="text-white hover:text-[#FCBD01] transition-smooth text-left"

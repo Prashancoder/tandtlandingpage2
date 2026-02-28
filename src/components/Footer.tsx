@@ -56,8 +56,9 @@ const Footer = () => {
 
           {/* Mandatory Legal Disclaimer */}
           <div className="max-w-2xl mx-auto text-gray-500 leading-relaxed">
-            This website is for informational purposes only and does not constitute 
-            an offer to sell. Prices and availability are subject to change without notice.
+          Disclaimer: This website is operated by an authorized real estate marketing partner and is not the official website of the developer. The content provided is for informational purposes only and does not form part of any legal offer, contract, or agreement. All prices, availability, specifications, and project details are subject to change without prior notice. Images are for representation purposes only.
+
+By submitting your details, you authorize us to contact you via call, SMS, WhatsApp, or email, even if your number is registered under DND/NDNC. We may share your information with RERA-registered brokers/developers for further processing. For accurate and updated project information, please contact us directly.
           </div>
 
         </div>
