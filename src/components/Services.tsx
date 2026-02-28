@@ -16,7 +16,6 @@ const Services = () => {
         "Independent floors in a core Gurugram location with strong capital appreciation and rental demand.",
       features: [
         "End-users & investors",
-        "Limited inventory",
       ],
       color: "from-emerald-600 to-teal-600",
     },

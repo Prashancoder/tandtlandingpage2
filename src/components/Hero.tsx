@@ -1,4 +1,4 @@
-import heroBg from '@/assets/desktopbanner1.jpeg';
+import heroBg from '@/assets/desktopbanner1.png';
 import heroBgMobile from '@/assets/mobilebanner1.jpeg';
 import LeadForm from '@/components/LeadForm';
 
