@@ -154,7 +154,7 @@ const LeadForm = ({
               type="text"
               value={formData.name}
               onChange={(e) => handleChange("name", e.target.value)}
-              placeholder="Enter your full name"
+              placeholder=""
               required
               className="mt-2 rounded-lg"
             />
@@ -169,7 +169,7 @@ const LeadForm = ({
               type="tel"
               value={formData.phone}
               onChange={(e) => handleChange("phone", e.target.value)}
-              placeholder="+91 9876543210"
+              placeholder=""
               required
               className="mt-2 rounded-lg"
             />
@@ -184,7 +184,7 @@ const LeadForm = ({
               type="email"
               value={formData.email}
               onChange={(e) => handleChange("email", e.target.value)}
-              placeholder="example@email.com"
+              placeholder=""
               className="mt-2 rounded-lg"
             />
           </div>
@@ -192,12 +192,12 @@ const LeadForm = ({
           <div>
             <Label className="flex items-center gap-2 font-semibold">
               <MessageSquare size={16} />
-              Your Requirements
-            </Label>
+              Preferred Visit Date/Best time to Connect
+                          </Label>
             <Textarea
               value={formData.message}
               onChange={(e) => handleChange("message", e.target.value)}
-              placeholder="Budget, preferred configuration..."
+              placeholder=" "
               rows={3}
               className="mt-2 rounded-lg"
             />
@@ -225,7 +225,7 @@ const LeadForm = ({
             Schedule Your Site Visit
           </h2>
           <p className="text-gray-600 mt-4">
-            Connect with Lavneet Dabbas for premium independent floors in
+            Connect with Lavneet Dabas for premium independent floors in
             Sector 51, Gurugram.
           </p>
         </div>

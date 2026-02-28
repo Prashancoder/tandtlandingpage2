@@ -16,10 +16,10 @@ import artwork from '../assets/artwork.jpeg';
 const About = () => {
 
   const highlights = [
-    "Spacious 3 & 4 BHK + Study independent floors",
+    "Spacious 3 & 4 BHK + Study Layouts",
     "Dedicated servant room with basement & terrace space",
     "Premium finishes with modern architecture",
-    "Low-density private living in Sector 51",
+    "Families who prefer privacy over high rise density",
   ];
 
   const investmentUSPs = [
@@ -75,16 +75,15 @@ const About = () => {
             </span>
           </div>
 
-          <h2 className="text-4xl md:text-6xl font-extrabold mb-6 text-slate-900 leading-tight">
-            Orchid IVY,{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-500">
-              Sector 51, Gurugram
-            </span>
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-slate-900 leading-tight">
+  Orchid IVY,{" "}
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-600 to-orange-500">
+    Sector 51, Gurugram
+  </span>
+</h2>
 
-          <p className="text-slate-600 text-lg md:text-xl max-w-3xl mx-auto">
-            Experience premium independent living in one of Gurugram’s most established sectors —
-            designed for modern families who seek space, privacy and long-term value.
+          <p className="text-slate-600 text-sm md:text-base max-w-3xl mx-auto">          Experience Premium Independent Living in one of Gurugram’s most established Residential Sectors 
+          <br /> -- Designed for modern families who seek space, privacy and long-term value--
           </p>
         </motion.div>
 
@@ -104,9 +103,9 @@ const About = () => {
             </h3>
 
             <p className="text-slate-600 mb-8 text-lg leading-relaxed">
-              Orchid IVY brings limited-edition independent floors to Sector 51 —
-              surrounded by leading hospitals, schools and business hubs.
-              This is not just a home — it’s a private lifestyle upgrade.
+              Orchid IVY brings limited-edition Independent Floors at Sector 51 —
+              surrounded by leading Hospitals, Schools and Business Hubs.
+           <br />   This is not just a home — it’s a private lifestyle upgrade!
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mb-10">
@@ -125,9 +124,7 @@ const About = () => {
               ))}
             </div>
 
-            <button className="px-8 py-4 bg-slate-900 text-white font-bold rounded-2xl hover:bg-slate-800 transition-all flex items-center gap-2">
-              Book Site Visit <ArrowRight className="w-5 h-5" />
-            </button>
+  
 
           </motion.div>
 
@@ -169,30 +166,7 @@ const About = () => {
         </div>
 
         {/* Investment USPs */}
-        <div className="grid md:grid-cols-3 gap-8">
-          {investmentUSPs.map((usp, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
-              className={`p-8 rounded-3xl border ${usp.color}`}
-            >
-              <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center mb-6 shadow-sm">
-                <usp.icon className="w-6 h-6" />
-              </div>
-              <h4 className="text-xl font-bold mb-2 text-slate-900">
-                {usp.title}
-              </h4>
-              <p className="font-bold mb-4 text-xs uppercase opacity-80">
-                {usp.focus}
-              </p>
-              <p className="text-slate-600 text-sm leading-relaxed">
-                {usp.description}
-              </p>
-            </motion.div>
-          ))}
-        </div>
+
 
       </div>
     </section>

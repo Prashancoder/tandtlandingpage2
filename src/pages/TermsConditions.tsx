@@ -141,9 +141,8 @@ const TermsConditions = () => {
               </h2>
               <div className="bg-muted p-6 rounded-lg">
                 <p><strong>Lavneet Dabas</strong></p>
-                <p>Independent Real Estate Consultant</p>
                 <p>Phone: 9971809303</p>
-                <p>Email: Lavneet Dabastdabbas27@gmail.com</p>
+                <p>Email: lavneetdabas26@gmail.com</p>
               </div>
             </section>
 

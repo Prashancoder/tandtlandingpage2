@@ -1,36 +1,9 @@
 // src/components/WhyChoose.tsx
-import { Card, CardContent } from '@/components/ui/card';
-import { 
-  TrendingUp, 
-  Briefcase, 
-  Compass 
-} from 'lucide-react';
 import { motion } from "framer-motion";
-
-const whyChoose = [
-  {
-    icon: Compass,
-    title: "Premium Independent Floor Living",
-    description:
-      "Enjoy low-density, villa-like living with your own independent floor, basement and exclusive terrace space.",
-  },
-  {
-    icon: Briefcase,
-    title: "Fully Developed Sector 51, Gurugram",
-    description:
-      "Live minutes from Medanta, Amity International School, Unitech Cyber Park and the upcoming Sector 40 metro station.",
-  },
-  {
-    icon: TrendingUp,
-    title: "Strong Rental & Appreciation Potential",
-    description:
-      "Sector 51 is a mature micro-market with solid capital appreciation trends, ideal for both end-users and investors.",
-  },
-];
 
 const WhyChoose = () => {
   return (
-    <motion.section 
+    <motion.section
       id="why-choose"
       className="py-24 bg-background"
       initial={{ opacity: 0, y: 60 }}
@@ -38,33 +11,72 @@ const WhyChoose = () => {
       transition={{ duration: 0.9 }}
       viewport={{ once: true }}
     >
-      <h3 className="text-3xl font-bold text-center mb-12">
-        Why Choose <span className="bg-gradient-to-r from-yellow-500 to-secondary bg-clip-text text-transparent">Orchid IVY?</span>
-      </h3>
-      
-      {/* Updated Grid: md:grid-cols-3 to center the 3 items perfectly */}
-      <div className="container mx-auto px-6 grid md:grid-cols-3 gap-8">
-        {whyChoose.map((item, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: index * 0.2 }}
-            viewport={{ once: true }}
-          >
-            <Card className="h-full shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-500 rounded-xl bg-white/90 backdrop-blur border-none ring-1 ring-gray-100">
-              <CardContent className="p-8 text-center flex flex-col items-center h-full">
-                <div className="flex justify-center mb-6">
-                  <div className="p-4 bg-gradient-to-r from-yellow-500 to-secondary rounded-full text-white shadow-lg transform transition-transform group-hover:scale-110">
-                    <item.icon size={32} />
-                  </div>
-                </div>
-                <h4 className="text-xl font-bold mb-3 text-gray-800">{item.title}</h4>
-                <p className="text-gray-600 text-base leading-relaxed">{item.description}</p>
-              </CardContent>
-            </Card>
-          </motion.div>
-        ))}
+      <div className="container mx-auto px-6 max-w-4xl">
+
+        {/* Heading */}
+        <h3 className="text-3xl md:text-4xl font-bold text-center mb-12">
+          Why Choose{" "}
+          <span className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">
+            Orchid IVY?
+          </span>
+        </h3>
+
+        {/* Main Content Card */}
+        <div className="bg-white shadow-xl rounded-3xl p-10 md:p-14 border border-gray-100">
+
+          {/* Bullet Points */}
+          <div className="space-y-4 mb-12">
+            <p className="font-semibold text-lg text-gray-800">
+              ✓ Premium Independent Floor Living
+            </p>
+            <p className="font-semibold text-lg text-gray-800">
+              ✓ Located in Fully Developed Sector 51
+            </p>
+            <p className="font-semibold text-lg text-gray-800">
+              ✓ Excellent Rental & Appreciation Potential
+            </p>
+            <p className="font-semibold text-lg text-gray-800">
+              ✓ Ideal for End-Users & Investors
+            </p>
+            <p className="font-semibold text-lg text-gray-800">
+              ✓ Limited Inventory Available
+            </p>
+          </div>
+
+          {/* Prime Location Section */}
+          <div className="border-t pt-10">
+            <h4 className="text-2xl font-bold text-gray-900 mb-6">
+              Prime Location Advantage
+            </h4>
+
+            <p className="text-gray-600 mb-6 leading-relaxed">
+              Strategically located for effortless connectivity:
+            </p>
+
+            <ul className="space-y-3 text-gray-700 font-medium mb-8">
+              <li>🏥 Just 3 km from Medanta</li>
+              <li>🏫 Only 500 m from Amity International School</li>
+              <li>💼 3 km from Unitech Cyber Park</li>
+              <li>🚇 3 km from Upcoming Metro Station – Sector 40</li>
+            </ul>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Live close to top healthcare, reputed schools, business hubs,
+              and future infrastructure growth.
+            </p>
+
+            <p className="text-gray-700 font-semibold leading-relaxed">
+              Sector 51 is a fully developed micro-market with strong capital
+              appreciation trends, making Orchid IVY a compelling lifestyle
+              and investment asset for buyers.
+            </p>
+
+            <p className="mt-4 text-yellow-600 font-bold">
+              Limited inventory. Select ownership.
+            </p>
+          </div>
+
+        </div>
       </div>
     </motion.section>
   );

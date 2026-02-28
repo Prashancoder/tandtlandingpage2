@@ -120,10 +120,9 @@ const PrivacyPolicy = () => {
               </h2>
               <div className="bg-muted p-6 rounded-lg">
                 <p><strong>Lavneet Dabas</strong></p>
-                <p>Independent Real Estate Consultant</p>
                 <p>Orchid IVY, Sector 51, Gurugram</p>
                 <p>Phone: 9971809303</p>
-                <p>Email: Lavneet Dabastdabbas27@gmail.com</p>
+                <p>Email: Lavneet DabastDabas27@gmail.com</p>
               </div>
             </section>
 

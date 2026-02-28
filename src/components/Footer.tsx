@@ -14,10 +14,6 @@ const Footer = () => {
             Lavneet Dabas
           </h3>
 
-          <p className="text-gray-400 text-sm leading-relaxed">
-            Independent Real Estate Consultant marketing 
-            Orchid IVY, Sector 51, Gurugram.
-          </p>
 
           {/* Contact Info */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 text-gray-300 text-sm">
@@ -29,7 +25,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-2">
               <Mail size={16} />
-              <span>lavneetdabbas27@gmail.com</span>
+              <span>lavneetdabas26@gmail.com</span>
             </div>
 
           </div>

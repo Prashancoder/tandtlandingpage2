@@ -45,9 +45,10 @@ const Index = () => {
             {/* <Newplot/>  */}
                         {/* <CompanySection />  */}
 
-      <Services />
       {/* <Associations /> */}
             <WhyChoose />   {/* ✅ Yeh ab alag component aa gaya */}
+            <Services />
+
 
       <LeadForm />
 

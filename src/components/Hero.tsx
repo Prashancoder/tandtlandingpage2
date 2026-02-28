@@ -1,5 +1,5 @@
-import heroBg from '@/assets/qqq.jpeg';
-import heroBgMobile from '@/assets/qqq.jpeg';
+import heroBg from '@/assets/desktopbanner1.jpeg';
+import heroBgMobile from '@/assets/mobilebanner1.jpeg';
 import LeadForm from '@/components/LeadForm';
 
 const Hero = () => {
@@ -32,25 +32,25 @@ const Hero = () => {
             <div>
 
               <div className="inline-block px-4 py-1 mb-4 bg-orange-500 text-white text-sm font-bold rounded-full uppercase tracking-widest">
-                Premium Independent Floors
+                Experience Premium Independent Floors
               </div>
 
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight">
-                Orchid IVY <br />
-                <span className="text-orange-400">
-                  Sector 51, Gurugram
-                </span>
-              </h1>
+              <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 leading-tight">
+  Orchid IVY <br />
+  <span className="text-orange-400">
+    Sector 51, Gurugram
+  </span>
+</h1>
 
               <p className="text-lg md:text-xl text-gray-100 mb-6 max-w-xl">
                 3 & 4 BHK + Study Independent Floors  
-                with Servant Room, Basement & Private Terrace.
+                with Servant Room, Basement Area & Private Terrace.
               </p>
 
               <div className="space-y-2 text-gray-200 text-sm md:text-base mb-6">
-                <p>✓ Fully Developed Location</p>
+                <p>✓ Located in Fully Developed Sector-51 </p>
                 <p>✓ Excellent Rental & Appreciation Potential</p>
-                <p>✓ Limited Premium Inventory</p>
+                <p>✓ Limited Inventory</p>
               </div>
 
               <div className="flex flex-wrap gap-4 items-center">
@@ -73,7 +73,7 @@ const Hero = () => {
               </div>
 
               <p className="mt-4 text-sm text-gray-200">
-                Starting at <span className="font-semibold">₹3.80 Cr onwards*</span>
+                Starting at <span className="font-bold  text-2xl">₹3.80 Cr Onwards*</span>
               </p>
 
               <p className="mt-2 text-xs text-gray-400">
@@ -85,9 +85,7 @@ const Hero = () => {
             {/* Right Side – Lead Form */}
             <div className="hidden md:flex justify-center md:justify-end">
               <div className="w-full max-w-md bg-white/10 backdrop-blur-md p-6 rounded-xl border border-white/20">
-                <p className="text-white text-center mb-4 font-semibold text-lg">
-                  Download Brochure & Price List
-                </p>
+
                 <LeadForm variant="compact" transparent />
               </div>
             </div>

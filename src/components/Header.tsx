@@ -67,17 +67,7 @@ const Header = () => {
 </button>
 
               {/* ✅ Call Now Button */}
-<Button
-  asChild
-  className="bg-[#FCBD01] text-black transition-smooth hover:bg-[#FCBD01]"
->
-            <a
-              href="tel:919971809303"
-              className="text-black no-underline hover:text-black visited:text-black"
-            >
-              Call Now
-            </a>
-</Button>
+
 
 
             </nav>
