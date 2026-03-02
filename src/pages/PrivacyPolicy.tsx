@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
           <div className="space-y-8 text-muted-foreground leading-relaxed">
 
             <p>
-              <strong>Effective Date:</strong> 27/02/2026
+              <strong>Effective Date:</strong> 03/02/2026
             </p>
 
             <section>
