@@ -16,7 +16,7 @@ const TermsConditions = () => {
           <div className="space-y-8 text-muted-foreground leading-relaxed">
 
             <p>
-              <strong>Effective Date:</strong> 2026
+              <strong>Effective Date:</strong> 3/2/2026
             </p>
 
             {/* Agreement */}
@@ -149,7 +149,7 @@ const TermsConditions = () => {
                 <p><strong>Project Inquiry Desk</strong></p>
                 <p>Orchid IVY, Sector 51, Gurugram</p>
                 <p>Phone: 9971809303</p>
-                <p>Email: info@yourdomain.com</p>
+                <p>Email: lavneetdabas26@gmail.com</p>
               </div>
             </section>
 
