@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -35,6 +36,7 @@ const LeadForm = ({
   onSubmitted,
 }: LeadFormProps) => {
   const { toast } = useToast();
+  const navigate = useNavigate();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     name: "",
@@ -76,51 +78,22 @@ const LeadForm = ({
       property_project_name: "Orchid IVY - Sector 51 Gurugram",
     };
 
-    try {
-      const res = await fetch(`${API_URL}/api/lead`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(payload),
-      });
+    // Store form data in sessionStorage for background submission
+    sessionStorage.setItem('pendingLead', JSON.stringify(payload));
 
-      if (!res.ok) {
-        throw new Error(`Backend error: ${res.status}`);
-      }
+    // Navigate to thank you page immediately
+    navigate('/thank-you');
 
-      const data = await res.json();
+    // Reset form
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
 
-      if (data?.success) {
-        toast({
-          title: "Thank you! 🎉",
-          description:
-            "Your request has been received. Our team will contact you shortly.",
-        });
-
-        setFormData({
-          name: "",
-          email: "",
-          phone: "",
-          message: "",
-        });
-
-        if (onSubmitted) onSubmitted();
-      } else {
-        throw new Error("Lead submission failed");
-      }
-    } catch (error) {
-      console.error("Lead submission error:", error);
-
-      toast({
-        title: "Submission failed",
-        description:
-          "Please try again or call 9971809303 directly.",
-        variant: "destructive",
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
+    if (onSubmitted) onSubmitted();
+    setIsSubmitting(false);
   };
 
   const handleChange = (field: keyof FormData, value: string) => {

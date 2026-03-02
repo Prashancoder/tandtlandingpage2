@@ -76,10 +76,6 @@ const Hero = () => {
                 Starting at <span className="font-bold  text-2xl">₹3.80 Cr Onwards*</span>
               </p>
 
-              <p className="mt-2 text-xs text-gray-400">
-                Curated by Orchid IVY
-              </p>
-
             </div>
 
             {/* Right Side – Lead Form */}
