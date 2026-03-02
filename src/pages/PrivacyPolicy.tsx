@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
           <div className="space-y-8 text-muted-foreground leading-relaxed">
 
             <p>
-              <strong>Effective Date:</strong> 2/27/2026
+              <strong>Effective Date:</strong> 27/02/2026
             </p>
 
             <section>
@@ -24,14 +24,13 @@ const PrivacyPolicy = () => {
                 Introduction
               </h2>
               <p>
-                Lavneet Dabas (“we”, “our”, “us”) values your privacy and is committed 
-                to protecting your personal information. This Privacy Policy explains how 
-                we collect, use, and safeguard your data when you visit our website related 
-                to Orchid IVY, Sector 51, Gurugram.
+                This website is an independent property information platform created 
+                for marketing and informational purposes related to Orchid IVY, 
+                Sector 51, Gurugram.
               </p>
               <p className="mt-4">
-                This website is operated for informational and marketing purposes 
-                in relation to the mentioned property.
+                We respect your privacy and are committed to protecting any personal 
+                information you provide while using this website.
               </p>
             </section>
 
@@ -53,16 +52,18 @@ const PrivacyPolicy = () => {
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
                 2. How We Use Your Information
               </h2>
-              <p>We use your information to:</p>
+              <p>Your information may be used to:</p>
               <ul className="list-disc pl-6 mt-3 space-y-2">
-                <li>Contact you regarding Orchid IVY property details</li>
+                <li>Respond to your inquiries</li>
+                <li>Share project details, brochures, pricing and availability</li>
                 <li>Schedule site visits</li>
-                <li>Share brochures, pricing and availability</li>
-                <li>Provide updates about the project</li>
-                <li>Improve our services</li>
+                <li>Provide project updates</li>
+                <li>Improve our marketing and customer support services</li>
               </ul>
               <p className="mt-4">
-                We do not sell, rent, or trade your personal information to third parties.
+                We do not sell your personal information. Your details may be shared 
+                with RERA-registered real estate professionals or developers solely 
+                for responding to your inquiry.
               </p>
             </section>
 
@@ -71,9 +72,9 @@ const PrivacyPolicy = () => {
                 3. Data Security
               </h2>
               <p>
-                We implement appropriate technical and security measures to protect 
-                your data from unauthorized access, misuse, alteration, or disclosure. 
-                However, no method of transmission over the internet is 100% secure.
+                Reasonable technical and organizational measures are implemented 
+                to protect your data from unauthorized access, misuse, alteration, 
+                or disclosure. However, no internet transmission is completely secure.
               </p>
             </section>
 
@@ -83,23 +84,23 @@ const PrivacyPolicy = () => {
               </h2>
               <p>We may use third-party services such as:</p>
               <ul className="list-disc pl-6 mt-3 space-y-2">
-                <li>WhatsApp communication services</li>
-                <li>Phone call services</li>
                 <li>CRM systems for lead management</li>
-                <li>Advertising platforms for marketing purposes</li>
+                <li>WhatsApp and phone communication services</li>
+                <li>Advertising platforms (Meta, Google Ads, etc.)</li>
               </ul>
               <p className="mt-4">
-                These services may process your data according to their respective privacy policies.
+                These platforms may process data in accordance with their own privacy policies.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                5. Your Consent
+                5. Consent & Communication
               </h2>
               <p>
-                By submitting your information on this website, you consent to 
-                the collection and use of your data as described in this Privacy Policy.
+                By submitting your details on this website, you authorize us to contact 
+                you via call, SMS, WhatsApp, or email regarding this project, even if 
+                your number is registered under DND/NDNC.
               </p>
             </section>
 
@@ -108,9 +109,10 @@ const PrivacyPolicy = () => {
                 6. Project Disclaimer
               </h2>
               <p>
-                This website is maintained by Lavneet Dabas for marketing and 
-                informational purposes only. All property details including pricing, 
-                specifications, availability and offers are subject to change without notice.
+                This website is not the official website of the developer of Orchid IVY. 
+                All project information including pricing, availability, floor plans, 
+                specifications and offers are subject to change without prior notice. 
+                Images and visuals are for representation purposes only.
               </p>
             </section>
 
@@ -119,10 +121,10 @@ const PrivacyPolicy = () => {
                 7. Contact Information
               </h2>
               <div className="bg-muted p-6 rounded-lg">
-                <p><strong>Lavneet Dabas</strong></p>
+                <p><strong>Project Inquiry Desk</strong></p>
                 <p>Orchid IVY, Sector 51, Gurugram</p>
                 <p>Phone: 9971809303</p>
-                <p>Email: Lavneet DabastDabas27@gmail.com</p>
+                <p>Email: info@yourdomain.com</p>
               </div>
             </section>
 
@@ -131,8 +133,8 @@ const PrivacyPolicy = () => {
                 Updates to This Policy
               </h2>
               <p>
-                We may update this Privacy Policy periodically. Any changes will 
-                be posted on this page with an updated effective date.
+                This Privacy Policy may be updated from time to time. Any changes 
+                will be reflected on this page with an updated effective date.
               </p>
             </section>
 

@@ -30,14 +30,25 @@ const TermsConditions = () => {
               </p>
             </section>
 
+            {/* Independent Platform Disclaimer */}
+            <section>
+              <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                1. Independent Information Platform
+              </h2>
+              <p>
+                This website is an independent property information platform created 
+                for marketing and informational purposes only. It is not the official 
+                website of the developer of Orchid IVY.
+              </p>
+            </section>
+
             {/* Project Information Disclaimer */}
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                1. Project Information Disclaimer
+                2. Project Information Disclaimer
               </h2>
               <p>
-                All information provided on this website regarding Orchid IVY, Sector 51, Gurugram,
-                including but not limited to:
+                All information provided on this website including but not limited to:
               </p>
               <ul className="list-disc pl-6 mt-3 space-y-2">
                 <li>Pricing</li>
@@ -45,92 +56,87 @@ const TermsConditions = () => {
                 <li>Availability</li>
                 <li>Specifications</li>
                 <li>Location details</li>
+                <li>Floor plans and brochures</li>
               </ul>
               <p className="mt-4">
-                is subject to change without prior notice and is for informational purposes only.
+                is subject to change without prior notice and is for informational 
+                purposes only.
               </p>
             </section>
 
             {/* No Legal Offer */}
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                2. No Legal Offer
+                3. No Legal Offer
               </h2>
               <p>
-                The content on this website does not constitute a legal offer,
-                contract, or guarantee of property sale. Final terms shall be governed
-                by official agreements and documentation issued by the developer.
+                The content on this website does not constitute a legal offer, 
+                contract, booking confirmation, or guarantee of property sale. 
+                Final terms shall be governed by official agreements issued by 
+                the developer.
               </p>
             </section>
 
             {/* Pricing Disclaimer */}
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                3. Pricing Disclaimer
+                4. Pricing Disclaimer
               </h2>
               <p>
-                Starting price ₹3.80 Cr onwards* is indicative and subject to
-                availability and change at the discretion of the developer.
+                Any pricing mentioned (e.g., ₹3.80 Cr onwards*) is indicative 
+                and subject to availability, unit selection, and change at 
+                the discretion of the developer.
               </p>
             </section>
 
             {/* Site Visit & Booking */}
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                4. Site Visit & Booking
+                5. Site Visit & Booking
               </h2>
               <p>
-                Site visits are subject to prior appointment confirmation.
-                Booking terms, payment plans, and official documentation will be shared separately.
+                Site visits are subject to prior appointment confirmation. 
+                Booking terms, payment plans, and official documentation 
+                will be shared separately upon request.
               </p>
             </section>
 
             {/* Intellectual Property */}
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                5. Intellectual Property
+                6. Intellectual Property
               </h2>
               <p>
-                All content including images, artwork, text, design, and branding used on this
-                website is protected and may not be reproduced, copied, or distributed without permission.
+                All content including images, artwork, text, design, and layout 
+                used on this website is for marketing representation purposes only 
+                and may not be reproduced or distributed without permission.
               </p>
             </section>
 
             {/* Limitation of Liability */}
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                6. Limitation of Liability
+                7. Limitation of Liability
               </h2>
               <p>
-                Lavneet Dabas shall not be liable for any direct or indirect loss arising from
-                reliance on the information provided on this website.
+                The website operator shall not be liable for any direct or indirect 
+                loss arising from reliance on the information provided on this website.
               </p>
               <p className="mt-4">
-                Buyers are advised to conduct independent due diligence before making
-                any investment or purchase decisions.
+                Prospective buyers are advised to conduct independent verification 
+                and due diligence before making any property-related decisions.
               </p>
             </section>
 
             {/* Governing Law */}
             <section>
               <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                7. Governing Law
+                8. Governing Law
               </h2>
               <p>
-                These terms shall be governed by and construed in accordance with
-                the laws of India. Any disputes shall be subject to the jurisdiction
+                These terms shall be governed by and construed in accordance with 
+                the laws of India. Any disputes shall be subject to the jurisdiction 
                 of courts in Gurugram, Haryana.
-              </p>
-            </section>
-
-            {/* Independent Consultant Disclaimer */}
-            <section>
-              <h2 className="text-2xl font-semibold mb-4 text-foreground">
-                8. Marketing Disclaimer
-              </h2>
-              <p>
-                This website is managed by Lavneet Dabas, an independent real estate consultant,
-                for marketing and informational purposes only. We are not the developer of the project.
               </p>
             </section>
 
@@ -140,9 +146,10 @@ const TermsConditions = () => {
                 Contact Information
               </h2>
               <div className="bg-muted p-6 rounded-lg">
-                <p><strong>Lavneet Dabas</strong></p>
+                <p><strong>Project Inquiry Desk</strong></p>
+                <p>Orchid IVY, Sector 51, Gurugram</p>
                 <p>Phone: 9971809303</p>
-                <p>Email: lavneetdabas26@gmail.com</p>
+                <p>Email: info@yourdomain.com</p>
               </div>
             </section>
 

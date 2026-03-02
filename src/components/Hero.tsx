@@ -77,7 +77,7 @@ const Hero = () => {
               </p>
 
               <p className="mt-2 text-xs text-gray-400">
-                Curated by Lavneet Dabas
+                Curated by Orchid IVY
               </p>
 
             </div>

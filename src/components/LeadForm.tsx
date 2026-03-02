@@ -225,7 +225,7 @@ const LeadForm = ({
             Schedule Your Site Visit
           </h2>
           <p className="text-gray-600 mt-4">
-            Connect with Lavneet Dabas for premium independent floors in
+            Connect with Us for premium independent floors in
             Sector 51, Gurugram.
           </p>
         </div>

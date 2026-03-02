@@ -23,7 +23,7 @@ const Header = () => {
           <div className="flex justify-between items-center">
             {/* Branding - No Logo, Name Only */}
             <div className="flex flex-col">
-              <span className="text-white font-bold text-lg leading-tight">Lavneet Dabas</span>
+              <span className="text-white font-bold text-lg leading-tight">Orchid IVY</span>
             </div>
 
             {/* Desktop Navigation */}
