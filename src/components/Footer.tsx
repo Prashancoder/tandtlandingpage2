@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="text-center max-w-3xl mx-auto space-y-6">
 
           <h3 className="text-2xl font-bold">
-            Lavneet Dabas
+          Orchid IVY
           </h3>
 
 
