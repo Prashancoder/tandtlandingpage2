@@ -41,7 +41,7 @@ const Footer = () => {
         <div className="border-t border-white/20 mt-10 pt-6 text-center text-xs text-gray-400 space-y-3">
 
           <div>
-            © {currentYear} | Lavneet Dabas | All Rights Reserved.
+            © {currentYear} | Orchid IVY | All Rights Reserved.
           </div>
 
           <div className="flex justify-center gap-4">
