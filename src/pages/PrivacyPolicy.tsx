@@ -124,7 +124,7 @@ const PrivacyPolicy = () => {
                 <p><strong>Project Inquiry Desk</strong></p>
                 <p>Orchid IVY, Sector 51, Gurugram</p>
                 <p>Phone: 9971809303</p>
-                <p>Email: info@yourdomain.com</p>
+                <p>Email: lavneetdabas26@gmail.com</p>
               </div>
             </section>
 
