@@ -23,11 +23,6 @@ const Footer = () => {
               <span>9971809303</span>
             </div>
 
-            <div className="flex items-center gap-2">
-              <Mail size={16} />
-              <span>lavneetdabas26@gmail.com</span>
-            </div>
-
           </div>
 
           {/* RERA Placeholder */}
