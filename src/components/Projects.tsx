@@ -44,7 +44,7 @@ const Projects = () => {
             <div className="flex justify-between border-b pb-3">
               <span className="font-semibold text-gray-700">Starting Price</span>
               <span className="font-bold text-yellow-600 text-lg">
-                ₹3.80* Cr onwards
+                ₹3.80 Cr* Onwards
               </span>
             </div>
 

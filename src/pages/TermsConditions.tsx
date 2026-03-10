@@ -83,7 +83,7 @@ const TermsConditions = () => {
                 4. Pricing Disclaimer
               </h2>
               <p>
-                Any pricing mentioned (e.g., ₹3.80* Cr onwards) is indicative 
+                Any pricing mentioned (e.g., ₹3.80 Cr* Onwards) is indicative 
                 and subject to availability, unit selection, and change at 
                 the discretion of the developer.
               </p>
