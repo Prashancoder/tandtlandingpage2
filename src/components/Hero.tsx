@@ -73,7 +73,7 @@ const Hero = () => {
               </div>
 
               <p className="mt-4 text-sm text-gray-200">
-                Starting at <span className="font-bold  text-2xl">₹3.80 Cr* Onwards</span>
+                Starting at <span className="font-bold  text-2xl">₹3.80* Cr Onwards</span>
               </p>
 
             </div>
