@@ -146,7 +146,7 @@ const TermsConditions = () => {
                 Contact Information
               </h2>
               <div className="bg-muted p-6 rounded-lg">
-                <p><strong>Project Inquiry Desk</strong></p>
+                <p><strong>Project Inquiry</strong></p>
                 <p>Orchid IVY, Sector 51, Gurugram</p>
                 <p>Phone: 9971809303</p>
               </div>
